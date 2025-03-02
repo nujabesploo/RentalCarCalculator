@@ -28,10 +28,12 @@ The **Rental Car Cost Calculator** is a **Java-based console application** that 
 Below are some example screenshots of the program in action:  
 
 ### 🏷️ Selecting Add-Ons  
-![Add-ons Screenshot](https://github.com/user-attachments/assets/addons-example.png)  
+
+<img src="https://github.com/user-attachments/assets/c37fbb60-b984-4abb-b0dd-54584f676c53" alt="Another screenshot of application" width="500x400"/>
 
 ### 🔢 Cost Breakdown & Receipt  
-![Receipt Screenshot](https://github.com/user-attachments/assets/receipt-example.png)  
+  <img src="https://github.com/user-attachments/assets/d21b3e66-cfec-4030-a3f2-e06444a38404" alt="Screenshot of application" width="300x100"/>
+
 
 ---
 

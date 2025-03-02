@@ -1,65 +1,58 @@
-# 💰 Simple Ledger App - Personal Finance Tracker  
+# 🚗 Rental Car Cost Calculator  
 
 ## 📌 Overview  
-The **Simple Ledger App** is a **console-based Java program** that allows users to **track their financial transactions** effortlessly. It enables users to record **deposits and payments**, ensuring accurate bookkeeping. Transactions are stored in a CSV file for easy retrieval and review.  
+The **Rental Car Cost Calculator** is a **Java-based console application** that helps users estimate their **total car rental cost**, including optional add-ons and young driver surcharges. This tool simplifies rental cost calculations, making it useful for **budget planning** and **car rental services**.  
 
----  
+---
 
 ## ⚡ Features  
-✔️ **Record Transactions** – Add deposits and payments with descriptions  
-✔️ **Persistent Storage** – Saves all transactions to a CSV file  
-✔️ **View Transaction History** – Lists all recorded transactions in a readable format  
-✔️ **Input Validation** – Ensures dates and amounts are entered correctly  
-✔️ **Error Handling** – Prevents crashes and provides helpful messages  
+✔️ **Base Rental Cost Calculation** – Computes total cost based on rental days  
+✔️ **Add-on Services** – Includes options for **toll tag, GPS, and roadside assistance**  
+✔️ **Age-Based Pricing** – Applies a **30% surcharge for drivers under 25**  
+✔️ **Interactive Menu** – Users can **select add-ons dynamically**  
+✔️ **Clear Cost Breakdown** – Displays a **detailed receipt** for transparency  
+✔️ **Error Handling** – Prevents crashes and provides **user-friendly prompts**  
 
----  
+---
 
 ## 🏗️ How It Works  
 1. **Run the program** in a Java-supported environment.  
-2. Choose an option from the **main menu**:  
-   - (D) **Add Deposit**  
-   - (P) **Make Payment**  
-   - (L) **View Transactions**  
-   - (X) **Exit the program**  
-3. Enter transaction details such as **date, description, and amount**.  
-4. The transaction is **saved to a CSV file** for future reference.  
-5. View transactions anytime by selecting the **View Transactions** option.  
+2. Enter the **pickup date** and **number of rental days**.  
+3. Select **add-ons** (toll tag, GPS, roadside assistance) from the interactive menu.  
+4. Provide your **age** to determine if a young driver fee applies.  
+5. The program **calculates and displays** the total cost with a detailed breakdown.  
 
----  
+---
 
 ## 📸 Screenshots  
 Below are some example screenshots of the program in action:  
 
-### ✅ Adding a Deposit  
-![Deposit Screenshot](https://github.com/user-attachments/assets/deposit-example.png)  
+### 🏷️ Selecting Add-Ons  
+![Add-ons Screenshot](https://github.com/user-attachments/assets/addons-example.png)  
 
-### ⚠️ Invalid Input Handling  
-![Error Screenshot](https://github.com/user-attachments/assets/error-example.png)  
+### 🔢 Cost Breakdown & Receipt  
+![Receipt Screenshot](https://github.com/user-attachments/assets/receipt-example.png)  
 
-### 📜 Viewing Transactions  
-![Transaction List Screenshot](https://github.com/user-attachments/assets/transactions-example.png)  
-
----  
+---
 
 ## 🚀 How to Use  
 1. **Download or clone** the project repository.  
-2. Compile and run `SimpleLedgerApp.java` using a Java compiler.  
-3. Follow the **on-screen prompts** to add or view transactions.  
-4. Transactions are saved in `transactions.csv` for easy access.  
+2. Compile and run `RentalCarCalculator.java` using a Java compiler.  
+3. Follow the **on-screen prompts** to enter rental details and add-ons.  
+4. Review the **final cost breakdown** before confirming your rental.  
 
----  
+---
 
 ## 🎯 Future Improvements  
-🔹 Implement **categorization** of transactions (e.g., Food, Rent, Entertainment)  
-🔹 Develop a **graphical user interface (GUI)** for enhanced usability  
-🔹 Add **export options** for generating financial reports  
-🔹 Enable **data encryption** for secure transaction storage  
+🔹 **Support for different car types** with varied pricing  
+🔹 **Discounts for long-term rentals** (e.g., weekly, monthly rates)  
+🔹 **Option to save receipts** for future reference  
+🔹 **GUI version** for a user-friendly experience  
 
----  
+---
 
 ## 🏆 Credits  
 Developed by **Bolutife Alli** 🚀  
 Powered by **Java** ☕  
 
 ---
-
